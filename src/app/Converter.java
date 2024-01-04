@@ -12,5 +12,7 @@ public class Converter {
         double miles = 10;
         double kilometers = milesToKilometers(miles);
         System.out.println(miles + " миль = " + kilometers + " кілометрів");
+        System.out.println(kilometers + " кілометрів = " + miles + " миль");
     }
+    
 }
